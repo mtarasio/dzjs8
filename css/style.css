@@ -1,0 +1,30 @@
+#text{
+   text-align: center;
+   font-size: 34px;
+}
+
+table {
+   margin-top: 100px;
+   border-collapse: collapse;
+   width: 100%;
+   font-family: Arial, sans-serif;
+ }
+ th, td {
+   text-align: left;
+   padding: 8px;
+ }
+ th {
+   cursor: pointer;
+ }
+ tr:nth-child(even) {
+   background-color: #f2f2f2;
+ }
+
+ #block {
+   margin-top: 100px;
+   border: 1px solid black;
+   width: 300px;
+   height: 200px;
+   resize: both; 
+   overflow: auto;
+ }
